@@ -1,0 +1,22 @@
+.title-nav {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #311b00;
+}
+
+.jumbotron {
+    background-image: url('img/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 64px;
+}
+
+.jumbotron .brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.jumbotron span {
+    font-size: 14px;
+}

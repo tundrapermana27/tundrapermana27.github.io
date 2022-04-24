@@ -1,3 +1,7 @@
+body {
+    background-color: #CD9A64;
+}
+
 .title-nav {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
@@ -5,18 +9,36 @@
     color: #311b00;
 }
 
-.jumbotron {
+.title-item {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #311b00;
+}
+
+.landing-page {
     background-image: url('img/bg-1.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 64px;
+    height: 520px;
+    background-position: 0px;
+    border-radius: 0 0 40px 40px;
 }
 
-.jumbotron .brand {
+.landing-page .brand {
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
 }
 
-.jumbotron span {
+.landing-page span {
     font-size: 14px;
+}
+
+hr {
+    border-top: 2px solid #1E0F01;
+}
+
+.border-r {
+    border-radius: 10px;
+    /* overflow: hidden; */
 }

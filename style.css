@@ -1,5 +1,6 @@
 body {
     background-color: #CD9A64;
+    overflow-x: hidden;
 }
 
 .title-nav {
